@@ -1,0 +1,20 @@
+:root { --ink: #0b1f3a; --sub: #4a5b75; --line: #d8e0ec; --gold: #e0a800; --bg: #ffffff; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; }
+header { background: var(--ink); color: #fff; padding: 20px 16px; }
+header .in, main, footer .in { max-width: 820px; margin: 0 auto; }
+header a { color: #fff; text-decoration: none; }
+.brand { display: flex; align-items: center; gap: 14px; }
+.brand img { width: 56px; height: 56px; border-radius: 50%; }
+.brand b { font-size: 22px; color: #ffd23f; }
+main { padding: 24px 16px 40px; }
+h1 { font-size: 26px; margin: 8px 0 4px; }
+h2 { font-size: 19px; margin: 28px 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--line); }
+p, li { font-size: 15px; }
+.date { color: var(--sub); font-size: 14px; }
+.yt { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; background: #ff0033; color: #fff; border-radius: 8px; text-decoration: none; font-weight: bold; }
+.yt svg { width: 22px; height: 22px; }
+.card { border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+footer { border-top: 1px solid var(--line); padding: 16px; color: var(--sub); font-size: 14px; }
+footer a { color: var(--ink); margin-right: 16px; }
+.en { color: var(--sub); }
